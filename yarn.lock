@@ -5611,6 +5611,11 @@ levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
+lightstreamer-client-web@^8.0.3:
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/lightstreamer-client-web/-/lightstreamer-client-web-8.0.3.tgz#5840c14fdff90508da78144aaac1f1ef31eac0e2"
+  integrity sha512-zpCY+ZzecWpZlnszf2Fs8Bbw4wqH5N324tbrxsrIr4Mkh07GaoKxnfg3HjoRiXn3YWgriTCTYU6vYBWlT778wg==
+
 lilconfig@^2.0.3, lilconfig@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/lilconfig/-/lilconfig-2.0.4.tgz#f4507d043d7058b380b6a8f5cb7bcd4b34cee082"
