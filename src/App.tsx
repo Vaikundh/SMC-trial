@@ -4,7 +4,7 @@ import "./App.css";
 import { LightstreamerClient, Subscription } from "lightstreamer-client-web";
 import { LLA, Vector3 } from "./vectors";
 import { ecefToLla } from "./math";
-
+import Globey from "./Globe";
 
 const DATA = ["USLAB000032", "USLAB000033", "USLAB000034"];
 
@@ -43,7 +43,12 @@ function App() {
     };
   }, []);
 
-  return <div className="App">{JSON.stringify(ecefToLla(pos))}</div>;
+  return (
+  <div className="App">
+    {JSON.stringify(ecefToLla(pos))}
+    <Globey />
+  </div>
+  );
 }
 
 export default App;
